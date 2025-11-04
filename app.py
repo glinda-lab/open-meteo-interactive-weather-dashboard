@@ -4,8 +4,8 @@ import requests
 
 st.set_page_config(page_title="Weather App (No API Key)", layout="centered")
 
-st.title("🌤️ Free Weather App (No API Key)")
-st.markdown("Using [wttr.in](https://wttr.in) — no API key required!")
+st.title("🌤️ Free Weather App")
+st.markdown("Using [wttr.in](https://wttr.in)")
 
 city = st.text_input("Enter city name", "Seoul")
 
